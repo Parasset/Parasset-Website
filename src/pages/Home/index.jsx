@@ -207,10 +207,10 @@ const Index = () => {
       <div className="right flex-1">
         <section className="top" id="home"></section>
         <section className="bottom">
-          <div className="banner">
-            <Danmu speed="5">stake your crypto</Danmu>
-            <Danmu speed="6">assets to mint</Danmu>
-            <Danmu speed="5.5">parallel assets</Danmu>
+          <div className="banner flex justify-center flex-col">
+            <Danmu speed="10">stake your crypto</Danmu>
+            <Danmu speed="12">assets to mint</Danmu>
+            <Danmu speed="11">parallel assets</Danmu>
             <p className="desc">Value reengineering based on oracle</p>
             <a href="https://parasset.top/">
               <div className="button">app</div>
