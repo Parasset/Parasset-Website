@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react'
 import './index.scss'
 import { Title } from '../Part'
-
 import communityBg from '../../assets/images/community-bg.png'
 import telegram from '../../assets/images/links/telegram_icon.svg'
 import telegramActive from '../../assets/images/links/telegram_icon(1).svg'

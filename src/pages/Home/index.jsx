@@ -183,7 +183,7 @@ const Index = () => {
 
   return (
     <div className="wrapper flex">
-      <aside className="left flex-shrink-0">
+      <aside className="left flex-shrink-0 bg-white">
         <section className="top flex items-center justify-center">
           <img src={logo} alt="logo" className="logo" />
         </section>
@@ -205,7 +205,7 @@ const Index = () => {
         </section>
       </aside>
       <div className="right flex-1">
-        <section className="top" id="home"></section>
+        <section className="top bg-white" id="home"/>
         <section className="bottom">
           <div className="banner flex justify-center flex-col">
             <Danmu speed="10">stake your crypto</Danmu>
