@@ -79,6 +79,11 @@
           text-align: center;
           display: inline-block;
         }
+
+        .button:hover {
+          background: linear-gradient(to right, #7076A8, #5CA1C7, #82C2CA);
+          color: white;
+        }
       }
 
       .total {
