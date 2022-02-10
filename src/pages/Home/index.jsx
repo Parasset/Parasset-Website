@@ -238,7 +238,7 @@ const Index = () => {
           collapse
         />
         <Community />
-        <section className="footer"></section>
+        <section className="footer"/>
       </div>
     </div>
   )
