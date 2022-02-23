@@ -2,6 +2,7 @@
   font-size: 12px;
   text-transform: uppercase;
   position: relative;
+  height: 100vh;
 
   .left {
     width: 0.94rem;
@@ -9,12 +10,17 @@
 
     .top {
       height: 1.04rem;
+      width: 0.94rem;
       border-bottom: 1px solid #000;
-      position: sticky;
+      position: fixed;
+      z-index: 100;
       top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       .logo {
-        width: 0.72rem;
         height: 0.58rem;
       }
     }
@@ -24,7 +30,9 @@
       font-weight: 500;
       color: #000000;
       position: sticky;
-      top: 1.04rem;
+      height: 100%;
+      display: flex;
+      align-items: center;
 
       ul {
         writing-mode: vertical-rl;
@@ -43,14 +51,21 @@
   }
 
   .right {
-    overflow: hidden;
+    overflow: scroll;
 
     .top {
       height: 1.04rem;
       border-bottom: 1px solid #000;
+      width: 100%;
+      position: fixed;
+      z-index: 50;
+      top: 0;
+      left: 0.94rem;
     }
 
     .bottom {
+      padding-top: 1.04rem;
+
       .banner {
         height: 4.26rem;
         background: url(../../assets/images/banner-bg.png) center center / cover no-repeat #bfbfbf;
@@ -113,6 +128,11 @@
 
       .top {
         height: 88px;
+        position: fixed;
+        z-index: 90;
+        left: 0;
+        top: 0;
+        width: 100px;
 
         .logo {
           width: 56px;
@@ -136,11 +156,18 @@
     }
 
     .right {
+      overflow: scroll;
       .top {
         height: 88px;
+        width: 100%;
+        position: fixed;
+        z-index: 50;
+        top: 0;
+        left: 100px;
       }
 
       .bottom {
+        padding-top: 88px;
         .banner {
           .button {
             width: 202px;

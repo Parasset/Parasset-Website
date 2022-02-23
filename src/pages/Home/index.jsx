@@ -183,8 +183,8 @@ const Index = () => {
 
   return (
     <div className="wrapper flex">
-      <aside className="left flex-shrink-0 bg-white">
-        <section className="top flex items-center justify-center">
+      <aside className="left bg-white">
+        <section className="top">
           <img src={logo} alt="logo" className="logo" />
         </section>
         <section className="bottom flex">
