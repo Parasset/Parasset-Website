@@ -188,7 +188,7 @@ const Index = () => {
           <img src={logo} alt="logo" className="logo" />
         </section>
         <section className="bottom flex">
-          <ul className="flex flex-row-reverse mx-auto">
+          <ul className="flex flex-row-reverse">
             <li>
               <a onClick={() => scrollToAnchor('home')}>HOME</a>
             </li>
@@ -205,9 +205,9 @@ const Index = () => {
         </section>
       </aside>
       <div className="right flex-1">
-        <section className="top bg-white" id="home"/>
+        <section className="top bg-white"/>
         <section className="bottom">
-          <div className="banner flex justify-center flex-col">
+          <div className="banner flex justify-center flex-col" id="home">
             <Danmu speed="10">stake your crypto</Danmu>
             <Danmu speed="12">assets to mint</Danmu>
             <Danmu speed="11">parallel assets</Danmu>
