@@ -38,12 +38,12 @@
       ul {
         display: flex;
         justify-content: space-around;
-        height: 48%;
         writing-mode: vertical-rl;
         transform: rotate(180deg);
 
         li {
           cursor: pointer;
+          margin: 16px;
           a:hover {
             color: #5a88bb;
           }
@@ -150,9 +150,8 @@
         ul {
           display: flex;
           justify-content: space-around;
-          height: 68%;
           li {
-            //margin-bottom: 22px;
+            margin: 16px;
           }
         }
       }
