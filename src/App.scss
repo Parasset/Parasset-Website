@@ -19,3 +19,30 @@ code {
     monospace;
 }
 
+html {
+  overflow-x: hidden;
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+* {
+  scrollbar-width: none;
+}
+
+#root .of-hide {
+  overflow: hidden;
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+}
